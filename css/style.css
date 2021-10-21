@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body
 {
     background-color: pink;
@@ -22,3 +23,40 @@ article
 {
     display: none;
 }
+=======
+body {
+  background-color: pink;
+}
+#logo {
+  height: 120px;
+  width: 120px;
+}
+nav {
+  background-color: brown;
+  color: chartreuse;
+}
+article {
+  background-color: olivedrab;
+  color: black;
+}
+#prague {
+  height: 200px;
+  width: 300px;
+}
+#rome {
+  height: 200px;
+  width: 300px;
+}
+#madrid {
+  height: 200px;
+  width: 300px;
+}
+#pc-video {
+  height: 360px;
+  width: 240px;
+  background-color: purple;
+}
+#mobile-video {
+  display: none;
+}
+>>>>>>> Stashed changes
