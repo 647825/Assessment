@@ -2,44 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="travel explorer" />
     <title>Contact</title>
     <link rel="icon" href="img/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <img id="logo" src="img/logo.png" alt="Website logo" type="image/png" />
-      <h1>Travel</h1>
-      <h2>Through the world</h2>
-    </header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html"> Home </a>
-        </li>
-        <li>
-          <a href="bestdestinations.html"> Best Destination </a>
-        </li>
-        <li>
-          <a href="tickets.html"> Tickets </a>
-        </li>
-      </ul>
-    </nav>
-    <section>
-      <form action="">
+    <section class="grid-container3">
+      <header>
+        <img id="logo" src="img/logo.png" alt="Website logo" />
+        <h1>Travel</h1>
+        <h2>Through the world</h2>
+      </header>
+      <nav class="nav">
+        <a href="" class="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bestdestinations.html">best Destination</a></li>
+          <li><a href="tickets.html">Tickets</a></li>
+        </ul>
+      </nav>
+      <form>
         <fieldset>
-          <legend>Contact form</legend>
-          <label neme="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-          <label neme="email">email:</label>
-          <input type="text" id="email" name="email" required />
-          <label neme="message">message:</label>
-          <input type="text" id="message" name="message" required />
-          <button type="button">submit</button>
+          <legend>Contact</legend>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." />
+
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your email address.."
+          />
+
+          <label for="message">message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write your message.."
+          ></textarea>
+
+          <input type="button" id="button" value="Submit" />
         </fieldset>
       </form>
+      <aside id="tui2">
+        <a
+          href="https://www.tui.nl/8-daagse-rondreis-imposant-israel-519577994/"
+          target="_blank"
+        >
+          <img class="israël" src="img/israël.png" alt="Photo of israël"
+        /></a>
+        <a
+          href="https://www.tui.nl/10-daagse-rondreis-namaste-in-noord-india-519720656/"
+          target="_blank"
+        >
+          <img class="india" src="img/india.png" alt="Photo of india"
+        /></a>
+        <a
+          href="https://www.tui.nl/15-daagse-rondreis-klassiek-china-519591136/"
+          target="_blank"
+        >
+          <img class="china" src="img/china.png" alt="Photo of china"
+        /></a>
+      </aside>
+      <p id="Cookie">Cookie statement</p>
+      <footer>&copy; 2021 Omar Al Sayasna</footer>
     </section>
   </body>
 </html>

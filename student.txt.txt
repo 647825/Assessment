@@ -1,0 +1,4 @@
+Student name: Omar Al Sayasna
+Student number: 647825 
+Student class: inf1A
+URL student GitHub repository: your GitHub URL
